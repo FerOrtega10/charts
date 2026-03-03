@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #6200EE;
+  --color-secondary: #04DAC6;
+  
+  --color-primary-light: #BB86FC;
+  --color-primary-dark: #3700B3;
+
+  --color-secondary-light: #C8FEF4;
+  --color-secondary-dark: #00B3A6;
+
+  --font-display: "SN Pro", sans-serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+h1 {
+  font-family: var(--font-display);
+  color: var(--color-primary);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #eee;
+  color: #1F201F;
+  margin: 0;
+  padding: 0;
+}
